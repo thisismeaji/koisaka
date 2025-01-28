@@ -108,3 +108,27 @@
         display: flex;
     }
 }
+
+@media screen and (min-width:786px) and (max-width:1080px){
+
+    .nav{
+        padding: 1.5rem;
+    }
+
+    .logo img{
+        max-width: 5rem;
+        max-height: 2.5rem;
+    }
+
+    .navDekstop{
+        display: none;
+    }
+
+    .navMobile{
+        display: flex;
+    }
+
+    .menu{
+        display: flex;
+    }
+}
