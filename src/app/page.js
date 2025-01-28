@@ -1,9 +1,10 @@
+import Hero from '@/components/section/hero/Hero'
 import React from 'react'
 
 export default function page() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <Hero/>
+    </>
   )
 }

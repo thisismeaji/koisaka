@@ -11,12 +11,12 @@ const poppins = Poppins({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="id">
-      <body className={poppins.className}>
+    <html lang="id" className={poppins.className}>
+      <body>
         <header>
           <Navigation/>
         </header>
-        {children}
+          {children}
         <Footer/>
       </body>
     </html>

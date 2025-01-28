@@ -6,7 +6,7 @@
 
 :root {
   --primary: #ffffff;
-  --second: #100F0F;
+  --secondary: #100F0F;
   --accent: #ffffff;
 }
 
@@ -14,13 +14,16 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--second);
+  background-color: var(--secondary);
+  position: sticky;
+  top: 0;
 }
 
 a{
   color: inherit;
   text-decoration: none;
 }
+
 
 
 
