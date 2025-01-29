@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.164)), url('/assets/hero-background.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.541)), url('/assets/hero-background.png');
     background-size: cover; /* Agar gambar memenuhi div */
     background-position: center; /* Posisikan gambar di tengah */
     background-repeat: no-repeat; /* Jangan ulang gambar */
@@ -14,18 +14,18 @@
 
 .hero h1{
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 .hero h2{
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 
 .hero p{
     font-weight: 400;
-    max-width: 45rem;
     margin-top: 1rem;
+    max-width: 60rem;
 }
 
 .hero button{
@@ -58,12 +58,27 @@
 
     .hero p{
         font-size: 0.8em;
-        margin-top: 1rem;
+        padding: 0 2rem;
     }
 
     .hero button{
         font-size: 12px;
         padding: 0.5rem 1.5rem;
         margin-top: 1.2rem;
+    }
+}
+
+@media screen and (min-width:786px) and (max-width:1080px){
+    .hero h1{
+        font-size: 2em;
+    }
+
+    .hero h2{
+        font-size: 1.5em;
+    }
+
+    .hero p{
+        font-size: 0.9em;
+        padding: 0 4rem;
     }
 }

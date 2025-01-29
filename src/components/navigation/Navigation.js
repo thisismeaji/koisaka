@@ -27,12 +27,7 @@ export default function Navigation() {
         <nav className={Styles.nav}>
             <div className={Styles.logo}>
                 <Link href="/">
-                    <Image
-                        src="/assets/logo.png"
-                        alt="Logo"
-                        width="1000"
-                        height="1000"
-                    />
+                    <h1>Koisaka</h1>
                 </Link>
             </div>
             <div className={Styles.navList}>
