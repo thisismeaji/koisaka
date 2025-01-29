@@ -1,0 +1,76 @@
+.produkSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem 1rem;
+}
+
+.produkSection h2{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    row-gap: 3rem;
+    max-width: 1200px;
+}
+
+.cardProduk{
+    width: 100%;
+    max-width: 20rem;
+}
+
+
+.cardProduk img{
+    width: 100%;
+    height: 100%;
+}
+
+.cardProduk h3{
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.cardProduk h4{
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.cardProduk p{
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width:786px){
+
+    .produkSection h2{
+        font-size: 1.5em;
+    }
+
+    .cardProduk{
+        width: 100%;
+        max-width: none;
+        margin: 0 1rem;
+    }
+
+    .cardProduk p{
+        font-size: 0.8em;
+    }
+
+    .cardProduk h4{
+        font-size: 0.9em;
+    }
+
+    .cardProduk h3{
+        font-size: 1em;
+    }
+}
